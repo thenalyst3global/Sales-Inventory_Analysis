@@ -24,6 +24,7 @@ This project is a real-world Business Intelligence (BI) analysis focused on reta
 ## 1. Background and Overview
 
 In this project, I developed a Sales Performance Dashboard to provide real-time insights into revenue growth, profit margins, and demographic-driven sales behavior across multiple locations.
+
 **Key Objectives:**
 - Track sales trends over multiple years
 - Evaluate profit efficiency against cost
@@ -38,7 +39,7 @@ In this project, I developed a Sales Performance Dashboard to provide real-time 
 - Equal revenue and profit distribution across Paris, London, and Accra
 - 2023 shows sharp decline in sales
 
-- **Strategic Recommendations:**
+**Strategic Recommendations:**
 - Focus on middle-aged adult campaigns
 - Investigate 2023 performance drop
 - Expand in consistently performing cities
@@ -53,7 +54,7 @@ In this project, I developed a Sales Performance Dashboard to provide real-time 
 - Metrics: Revenue, Profit, TotalCost
 - Time dimensions: Weekday, Month, Year, Quarter
 
-- **ETL Workflow:**
+**ETL Workflow:**
 - **Excel Power Query**: Cleaned nulls, standardized dates, added age groups  
   ![Power Query Cleaning](https://github.com/user-attachments/assets/14c7c4db-3939-4e0f-af75-d36d1763a30a)
 - **SQL Server**:
@@ -94,11 +95,12 @@ This dashboard offers a clear, high-level overview of business performance, help
 - **Year-over-year growth trends** from 2020 to 2023
 - **Customer purchasing patterns** across different age groups
 - **Performance consistency** across three international locations
+
 ---
 
 ## 4. Insight Deep Dive: 2023 Performance Drop
 
-Upon examining the Sales Growth Trend Over Time, the line chart clearly shows:
+**Upon examining the Sales Growth Trend Over Time, the line chart clearly shows:**
 - A steady incline from **2020 (£1.05M)** through **2022 (£1.04M)**
 - A drastic fall to **£0.0M in 2023**, despite consistent cost baselines
 
@@ -131,4 +133,4 @@ This dashboard presents a compelling narrative:
 ## 🙋‍♂️ Author
 **Bernard Joseph**  
 Data Analyst  
-[www.linkedin.com/in/bernard-joseph-oyakhilome](#) | [Portfolio](#) | [jozefbernardonline@gmail.com](#)
+[www.linkedin.com/in/bernard-joseph-oyakhilome](#) | [https://thenalyst3global.github.io/Sales-Inventory_Analysis/#1-background-and-overview](#) | [jozefbernardonline@gmail.com](#)
