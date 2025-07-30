@@ -18,7 +18,8 @@ This project is a real-world Business Intelligence (BI) analysis focused on reta
 - `Power BI File`: [Download PBIX File](https://microsoft.com)
 - `Portfolio PDF`: [Download Full PDF Report](https://microsoft.com)
 - `Assets`:
-  <img src="https://github.com/user-attachments/assets/d6e7faf8-b984-4891-9576-989082fb4661" alt="Data Pipeline Screenshot" width="450"/>
+
+   <img src="https://github.com/user-attachments/assets/d6e7faf8-b984-4891-9576-989082fb4661" alt="Data Pipeline Screenshot" width="450"/>
 
 ---
 
