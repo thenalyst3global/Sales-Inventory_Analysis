@@ -15,7 +15,7 @@ This project is a real-world Business Intelligence (BI) analysis focused on reta
 
 ## 📁 Project Structure
 
-- `📄 Dataset`: [Download Dataset](#)
-- `📊 Power BI File`: [Download PBIX File](#)
+- `📄 Dataset`: [Download Dataset](https://microsoft.com)
+- `📊 Power BI File`: [Download PBIX File](https://microsoft.com)
 - `🧾 Portfolio PDF`: [View Full Analysis](#)
 - `📷 Assets`: Screenshots of data pipeline and dashboard
