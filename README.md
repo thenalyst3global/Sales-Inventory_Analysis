@@ -11,3 +11,11 @@ This project is a real-world Business Intelligence (BI) analysis focused on reta
 | 3           | [Executive Summary](#3-executive-summary)                            | 3    |
 | 4           | [Insight Deep Dive: 2023 Performance Drop](#4-insight-deep-dive-2023-performance-drop) | 4    |
 | 5           | [Recommendation & Professional Storytelling](#5-recommendation--professional-storytelling) | 5    |
+---
+
+## 📁 Project Structure
+
+- `📄 Dataset`: [Download Dataset](#)
+- `📊 Power BI File`: [Download PBIX File](#)
+- `🧾 Portfolio PDF`: [View Full Analysis](#)
+- `📷 Assets`: Screenshots of data pipeline and dashboard
