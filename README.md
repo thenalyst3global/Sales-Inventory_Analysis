@@ -13,9 +13,9 @@ This project is a real-world Business Intelligence (BI) analysis focused on reta
 | 5           | [Recommendation & Professional Storytelling](#5-recommendation--professional-storytelling) | 5    |
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-- `📄 Dataset`: [Download Dataset](https://microsoft.com)
-- `📊 Power BI File`: [Download PBIX File](https://microsoft.com)
-- `🧾 Portfolio PDF`: [View Full Analysis](#)
-- `📷 Assets`: Screenshots of data pipeline and dashboard
+- `Dataset`: [Download Dataset](https://microsoft.com)
+- `Power BI File`: [Download PBIX File](https://microsoft.com)
+- `Portfolio PDF`: [Download Full PDF Report](https://microsoft.com)
+- `Assets`: 
