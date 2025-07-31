@@ -1,3 +1,9 @@
+title: Bernard Joseph Oyakhilome – Data Analyst / BI Analyst
+description: >
+  Excel | SQL | Power BI  
+  Passionate about turning raw data into actionable insights that drive decision-making
+
 remote_theme: pages-themes/cayman@v0.2.0
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
