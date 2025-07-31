@@ -1,6 +1,6 @@
 ## Bernard Joseph Oyakhilome
 
-# Sales & Inventory Performance
+# Sales & Inventory Performance Analysis
 
 This project is a real-world Business Intelligence (BI) analysis focused on retail sales and inventory performance across different locations and customer demographics. Built using **Power BI**, **SQL Server**, and **Excel Power Query**, the dashboard reveals insights that drive actionable business decisions.
 
