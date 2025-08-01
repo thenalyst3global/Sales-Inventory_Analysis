@@ -16,9 +16,9 @@ This project is a real-world Business Intelligence (BI) analysis focused on reta
 
 ## Project Structure
 
-- `Dataset`: [Download Dataset](https://microsoft.com)
-- `Power BI File`: [Download PBIX File](https://microsoft.com)
-- `Portfolio PDF`: [Download Full PDF Report](https://microsoft.com)
+- `Dataset`: [Download Dataset](https://github.com/thenalyst3global/Sales-Inventory_Analysis/blob/main/dataset_.rar)
+- `Power BI File`: [Download PBIX File](https://github.com/thenalyst3global/Sales-Inventory_Analysis/blob/main/Sales%20inventory%20project.pbix)
+- `Portfolio PDF`: [Download Full PDF Report](https://github.com/thenalyst3global/Sales-Inventory_Analysis/blob/main/Sales_Performance_Analysis_Portfolio.pdf)
 - `Assets`:
 
    <img src="https://github.com/user-attachments/assets/d6e7faf8-b984-4891-9576-989082fb4661" alt="Data Pipeline Screenshot" width="450"/>
