@@ -134,7 +134,7 @@ This dashboard presents a compelling narrative:
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 **Bernard Joseph**  
 *Data Analyst*  
