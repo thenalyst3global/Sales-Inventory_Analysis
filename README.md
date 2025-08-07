@@ -135,6 +135,8 @@ This dashboard presents a compelling narrative:
 ---
 
 ## 🙋‍♂️ Author
+
 **Bernard Joseph**  
-Data Analyst  
-[LinkedIn](www.linkedin.com/in/bernard-joseph-oyakhilome) | [Portfolio](https://thenalyst3global.github.io/Sales-Inventory_Analysis/#1-background-and-overvie) | [Email](jozefbernardonline@gmail.com)
+*Data Analyst*  
+🔗 [LinkedIn](https://www.linkedin.com/in/bernard-joseph-oyakhilome) | 🌐 [Portfolio](https://thenalyst3global.github.io/Sales-Inventory_Analysis/#1-background-and-overvie) | 📧 [Email](mailto:jozefbernardonline@gmail.com)
+
