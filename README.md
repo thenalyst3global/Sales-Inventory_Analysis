@@ -14,19 +14,19 @@ The retail business relied on **manual and inconsistent sales reporting**, which
 ---
 
 ## Project Goals
-- ⏱️ **Save Time** – Reduce reporting turnaround by automating data workflows  
-- 📊 **Deliver Insights** – Track sales, costs, and profit trends across years  
-- 👥 **Understand Customers** – Identify top-performing demographics and locations  
-- 🌍 **Support Strategy** – Provide executives with actionable growth insights  
+- **Save Time** – Reduce reporting turnaround by automating data workflows  
+- **Deliver Insights** – Track sales, costs, and profit trends across years  
+- **Understand Customers** – Identify top-performing demographics and locations  
+- **Support Strategy** – Provide executives with actionable growth insights  
 
 ---
 
 ## Quantified Results
-- 📈 **32.6% YoY Revenue Growth** → Revenue reached £4.25M  
-- 💰 **74% Profit Margin** → £3.15M profit achieved  
-- 👥 **Middle-aged Adults = 68% of sales**  
-- 🌍 **Balanced performance** across Paris, London, and Accra  
-- ⏱️ **60% reduction in manual reporting** with SQL + Power BI automation  
+- **32.6% YoY Revenue Growth** → Revenue reached £4.25M  
+- **74% Profit Margin** → £3.15M profit achieved  
+- **Middle-aged Adults = 68% of sales**  
+- **Balanced performance** across Paris, London, and Accra  
+- **60% reduction in manual reporting** with SQL + Power BI automation  
 
 ---
 
@@ -45,17 +45,17 @@ This interactive dashboard highlights:
 - Inconsistent and error-prone outputs  
 
 **After**:  
-- 🚀 Automated reporting with SQL + Power BI = instant access  
-- 📊 Executives and managers gain **real-time dashboards**  
-- 🔍 Uncovered key customer segments and city-specific opportunities  
+- Automated reporting with SQL + Power BI = instant access  
+- Executives and managers gain **real-time dashboards**  
+- Uncovered key customer segments and city-specific opportunities  
 
 ---
 
 ## Strategic Recommendations
-- 🎯 Focus marketing campaigns on **middle-aged adults (68%)**  
-- 📅 Validate and strengthen 2023 data collection to prevent anomalies  
-- 🌍 Expand in consistently performing cities (Paris, London, Accra)  
-- ⚙️ Implement automated anomaly detection in dashboards  
+- Focus marketing campaigns on **middle-aged adults (68%)**  
+- Validate and strengthen 2023 data collection to prevent anomalies  
+- Expand in consistently performing cities (Paris, London, Accra)  
+- Implement automated anomaly detection in dashboards  
 
 ---
 
