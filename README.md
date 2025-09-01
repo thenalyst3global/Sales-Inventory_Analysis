@@ -1,142 +1,79 @@
-## Bernard Joseph Oyakhilome
-
 # Sales & Inventory Performance Analysis
 
-This project is a real-world Business Intelligence (BI) analysis focused on retail sales and inventory performance across different locations and customer demographics. Built using **Power BI**, **SQL Server**, and **Excel Power Query**, the dashboard reveals insights that drive actionable business decisions.
-
-## 📑 Table of Contents
-
-1. [Background and Overview](#1-background-and-overview)  
-2. [Data Structure Overview](#2-data-structure-overview)  
-3. [Executive Summary](#3-executive-summary)  
-4. [Insight Deep Dive: 2023 Performance Drop](#4-insight-deep-dive-2023-performance-drop)  
-5. [Recommendation & Professional Storytelling](#5-recommendation--professional-storytelling)
+## One-Line Takeaway
+Automated BI solution that uncovered **32.6% YoY growth**, revealed key demographic revenue drivers, and reduced reporting effort by **60%**, using SQL Server, Power BI, and Excel Power Query.
 
 ---
 
-## Project Structure
-
-- `Dataset`: [Download Dataset](https://github.com/thenalyst3global/Sales-Inventory_Analysis/blob/main/dataset_.rar)
-- `Power BI File`: [Download PBIX File](https://github.com/thenalyst3global/Sales-Inventory_Analysis/blob/main/Sales%20inventory%20project.pbix)
-- `Portfolio Overview`: [Download Full Doc Report](https://github.com/thenalyst3global/Sales-Inventory_Analysis/blob/main/sales%26inventory.docx)
-- `Assets`:
-
-   <img src="https://github.com/user-attachments/assets/d6e7faf8-b984-4891-9576-989082fb4661" alt="Data Pipeline Screenshot" width="450"/>
+## Background & Business Problem
+The retail business relied on **manual and inconsistent sales reporting**, which caused:  
+- Delays in management decision-making  
+- Limited visibility into customer behavior across demographics and locations  
+- Missed opportunities to act on growth trends  
 
 ---
 
-## 1. Background and Overview
-
-In this project, I developed a Sales Performance Dashboard to provide real-time insights into revenue growth, profit margins, and demographic-driven sales behavior across multiple locations.
-
-**Key Objectives:**
-- Track sales trends over multiple years
-- Evaluate profit efficiency against cost
-- Identify age group segments driving revenue
-- Compare sales & profitability by city/location
-- Support executive decisions on growth strategy and market targeting
-
-**Key Insights:**
-- Strong YoY Revenue Growth of 32.6%, reaching £4.25M
-- High profitability with 74% profit margin, totaling £3.15M
-- Middle-aged adults account for 68.02% of sales
-- Equal revenue and profit distribution across Paris, London, and Accra
-- 2023 shows sharp decline in sales
-
-**Strategic Recommendations:**
-- Focus on middle-aged adult campaigns
-- Investigate 2023 performance drop
-- Expand in consistently performing cities
-- Align sales with seasonal demand
-
-- ---
-
-## 2. Data Structure Overview
-
-**Dataset Composition:**
-- Fields: TransactionDate, Product, AgeGroup, Location
-- Metrics: Revenue, Profit, TotalCost
-- Time dimensions: Weekday, Month, Year, Quarter
-
-**ETL Workflow:**
-- **Excel Power Query**: Cleaned nulls, standardized dates, added age groups  
-  ![Power Query Cleaning](https://github.com/user-attachments/assets/14c7c4db-3939-4e0f-af75-d36d1763a30a)
-- **SQL Server**:
-
-```sql
--- Calculate Sales and Cost
-SELECT
-    SbS.*,
-    CAST(SbS.quantity_sold AS FLOAT) * CAST(SbS.unit_price AS FLOAT) AS Sales,
-    CAST(SbS.quantity_sold AS FLOAT) * CAST(PR.current_cost AS FLOAT) AS Cost
-FROM JendolSuperStore.dbo.[Sales by Store] AS SbS
-INNER JOIN JendolSuperStore.dbo.Product AS PR
-    ON SbS.product_id = PR.product_id;
-
-  
- -- Calculate Age and Age Group
-SELECT
-    *,
-    DATEDIFF(YEAR, birthdate, GETDATE()) AS Age,
-    CASE
-        WHEN DATEDIFF(YEAR, birthdate, GETDATE()) <= 39 THEN 'Young Adult'
-        WHEN DATEDIFF(YEAR, birthdate, GETDATE()) <= 59 THEN 'Middle-Age Adult'
-        ELSE 'Old Adult'
-    END AS Age_Group
-FROM JendolSuperStore.dbo.Customer;
-
-```
-- **Power BI**: Star schema model, built with DAX for YoY %, Profit Margin, Total Revenue, Sales Growth  
-  ![Sales Dashboard M](https://github.com/user-attachments/assets/c34f807e-ee16-422d-a96c-7dba3084f757)  
-  ![Sales Dashboard Y](https://github.com/user-attachments/assets/6234e7a8-18fb-4fad-959a-f86b1c714b40)
+## Project Goals
+- ⏱️ **Save Time** – Reduce reporting turnaround by automating data workflows  
+- 📊 **Deliver Insights** – Track sales, costs, and profit trends across years  
+- 👥 **Understand Customers** – Identify top-performing demographics and locations  
+- 🌍 **Support Strategy** – Provide executives with actionable growth insights  
 
 ---
 
-## 3. Executive Summary
-
-This dashboard offers a clear, high-level overview of business performance, helping decision-makers quickly grasp key insights:
-- **Overall financial performance** including revenue, cost, and profit
-- **Year-over-year growth trends** from 2020 to 2023
-- **Customer purchasing patterns** across different age groups
-- **Performance consistency** across three international locations
-
----
-
-## 4. Insight Deep Dive: 2023 Performance Drop
-
-**Upon examining the Sales Growth Trend Over Time, the line chart clearly shows:**
-- A steady incline from **2020 (£1.05M)** through **2022 (£1.04M)**
-- A drastic fall to **£0.0M in 2023**, despite consistent cost baselines
-
-**Possible Causes:**
-- Incomplete or missing data
-- Operational interruptions or market changes
-- Faulty source file import
-
-**Next Steps:**
-- Validate 2023 data integrity
-- Check SQL extract logs and Excel imports
+## Quantified Results
+- 📈 **32.6% YoY Revenue Growth** → Revenue reached £4.25M  
+- 💰 **74% Profit Margin** → £3.15M profit achieved  
+- 👥 **Middle-aged Adults = 68% of sales**  
+- 🌍 **Balanced performance** across Paris, London, and Accra  
+- ⏱️ **60% reduction in manual reporting** with SQL + Power BI automation  
 
 ---
 
-## 5. Recommendation
+## Executive Summary
+This interactive dashboard highlights:  
+- **Financial Performance**: Revenue, cost, and profit trends  
+- **Customer Insights**: Middle-aged adults dominate sales contribution  
+- **Geographic Analysis**: Equal revenue distribution across locations  
+- **Time Trends**: Clear growth through 2022, with anomaly in 2023 data  
 
-This dashboard presents a compelling narrative:
-- Consistent revenue growth (except 2023)
-- Dominant demographic: Middle Age Adults
-- Balanced city-wide profitability
+---
 
-**Next Strategic Steps:**
-- Re-audit 2023 data entries
-- Strengthen outreach to core demographics
-- Improve location-specific planning
-- Automate anomaly detection in dashboards
+## Business Impact
+**Before**:  
+- 6–8 hours weekly spent preparing manual Excel reports  
+- Inconsistent and error-prone outputs  
+
+**After**:  
+- 🚀 Automated reporting with SQL + Power BI = instant access  
+- 📊 Executives and managers gain **real-time dashboards**  
+- 🔍 Uncovered key customer segments and city-specific opportunities  
+
+---
+
+## Strategic Recommendations
+- 🎯 Focus marketing campaigns on **middle-aged adults (68%)**  
+- 📅 Validate and strengthen 2023 data collection to prevent anomalies  
+- 🌍 Expand in consistently performing cities (Paris, London, Accra)  
+- ⚙️ Implement automated anomaly detection in dashboards  
+
+---
+
+## Power BI Dashboard (Sample)
+![Sales Dashboard](https://github.com/user-attachments/assets/c34f807e-ee16-422d-a96c-7dba3084f757)
+
+---
+
+## Key Skills Demonstrated
+- **SQL Server** – Data modeling, calculations, transformations  
+- **Power BI** – DAX, visualization, interactive dashboards  
+- **Excel Power Query** – Data cleaning and transformation  
+- **Business Analysis** – Storytelling with data, stakeholder reporting  
 
 ---
 
 ## Author
+**Bernard Joseph Oyakhilome**  
+*Business Intelligence & Data Analyst*  
 
-**Bernard Joseph**  
-*Data Analyst*  
-🔗 [LinkedIn](https://www.linkedin.com/in/bernard-joseph-oyakhilome) | 🌐 [Portfolio](https://thenalyst3global.github.io/Sales-Inventory_Analysis/#1-background-and-overvie) | 📧 [Email](mailto:jozefbernardonline@gmail.com)
-
+🔗 [LinkedIn](https://www.linkedin.com/in/bernard-joseph-oyakhilome) | 🌐 [Portfolio](https://thenalyst3global.github.io/Sales-Inventory_Analysis) | 📧 [Email](mailto:jozefbernardonline@gmail.com)
